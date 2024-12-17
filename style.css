@@ -1,0 +1,83 @@
+:root{
+    --color-primario: #939C80;
+    --color-secundario: #EBEBE2;
+    --bg: #B7bd9E;
+    --text-size: 1.5rem;
+    --color-text: rgb(42, 36, 36);
+    --color-input: #BAAF9D;
+    --color-Bear: #d8d1c3;
+}
+body{
+    font-family: "Nunito", serif;
+    /* cursiva con font style y italic */
+    font-style: italic;
+    background-color: var(--bg);
+    height: 100vh; 
+    color: var(--color-text);
+    justify-content: center;
+}
+.contenedor{
+    max-height: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--color-secundario);
+    border-radius: 10px;
+}
+.encabezado{
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color: var(--color-bg);
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-Bear);
+    padding-left: 10px;
+}
+#input:placeholder{
+    font-size: 1.1rem;
+    color: var(--color-text);
+}
+.agregar i{
+    font-size: 45px;
+    color: var(--color-primario);
+}
+.agregar i:hover{
+    transform: scale(1,1);
+    cursor: pointer;
+}
+.tareas h2{
+    margin-bottom: 28px;
+}
+.tareas{
+    font-size: 25px;
+}
+.tareas li{
+    /* background-color: var(--color-text); */ */
+    background-color: #939C80; 
+    border-radius: 15px;
+    padding: 5px;
+    color: var(--color-bg);
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tareas i:hover{
+    color: var(--color-secundario);
+}
+.tachado{
+    text-decoration: line-through;
+    color: #837154;
+}
